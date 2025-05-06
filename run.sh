@@ -210,7 +210,7 @@ execute_tool() {
     else
         echo "Server is not running. Start the server first."
         return 1
-    }
+    fi
 }
 
 # Ask Claude a question
@@ -223,7 +223,7 @@ ask_claude() {
     else
         echo "Server is not running. Start the server first."
         return 1
-    }
+    fi
 }
 
 # Print usage information
